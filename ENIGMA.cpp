@@ -18,7 +18,7 @@
 
 //1 - THE MESSAGE INPUT (It's responsable to let the user inset the message)
 
-void keyboard(){
+char* keyboard(){
 
     printf("Insert the message you want to encrypt: \n");
     printf(" Max size of the message = 80\n");
@@ -26,9 +26,18 @@ void keyboard(){
     char message[maxlen];
     scanf("%s", message);
 
+return message;
+
+//Ver como liberar a memoria depois. 
 }
 
-void rotors(){}
+void rotors(){
+
+    /*rotor1[26]={""};
+    rotor2[26]={};
+    rotor3[26]={};*/
+
+}
 void lampboard(){}
 
 
