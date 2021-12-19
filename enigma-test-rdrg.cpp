@@ -32,6 +32,7 @@ char* keyboard(){
 
     printf("Is the message you want to encrpyt:\n%s ?",message);
     printf("If it is indeed, press 1, or if not press 2");
+    scanf ("%d", &Firstquestion)
 
     switch (Firstquestion)
     {
